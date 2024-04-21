@@ -129,11 +129,6 @@ section {
   font-size: 250%;
 }
 
-/* .home-text h2 {
-  font-size: 1.1rem;
-  font-weight: 400;
-  
-} */
 
 .home-text p {
   font-size: var(--p-font);
@@ -541,7 +536,16 @@ form .btn {
     width: 300px;
   }
 }
-
+@media (max-width: 540px){
+  .home-text h1 {
+    font-size: 2rem;
+  } 
+}
+@media (max-width: 445px){
+  .home-text h1 {
+    font-size: 1.7rem;
+  } 
+}
 @media (max-width: 340px) {
   :root {
     --big-font: 1.7rem;
