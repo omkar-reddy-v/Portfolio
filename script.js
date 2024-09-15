@@ -71,19 +71,7 @@ function modechange() {
 }
 
 
-// // this function is used to change the boder colors every second
-// function changeBorderColor() {
-// const imageElement = document.getElementById('image');
-// const imageElement1 = document.getElementById('image1');
-// const colors = ['rgb(44, 210, 240)','#e27396', '#e29578']; 
-// let currentIndex = 0;
-//     setInterval(() => {
-//         imageElement.style.borderColor = colors[currentIndex];
-//         imageElement1.style.borderColor = colors[currentIndex];
-//         currentIndex = (currentIndex + 1) % colors.length;
-//     }, 1500); // Change color every second (adjust as needed)
-//   }
-// window.onclick = changeBorderColor;
+
 
 
 // This functions is used to animate the text 
